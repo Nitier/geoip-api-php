@@ -1,5 +1,5 @@
 # MaxMind GeoIP Legacy PHP API #
-
+## Only for old .dat bases ##
 ## End of Life ##
 
 MaxMind will be retiring the GeoIP Legacy databases at the end of May
@@ -8,9 +8,9 @@ fixes. Support for this library will end completely with the last release of
 the legacy GeoIP databases.
 
 We recommend that you upgrade to our GeoIP2 databases. You can read these
-from PHP with [our GeoIP2 PHP API](https://github.com/maxmind/GeoIP2-php).
+from PHP with [MaxMind GeoIP2 PHP API](https://github.com/maxmind/GeoIP2-php).
 
-See [our blog post](https://blog.maxmind.com/2020/06/01/retirement-of-geoip-legacy-downloadable-databases-in-may-2022/)
+See [MaxMind blog post](https://blog.maxmind.com/2020/06/01/retirement-of-geoip-legacy-downloadable-databases-in-may-2022/)
 for more information.
 
 ## Requirements ##
@@ -37,7 +37,7 @@ You should now have the file `composer.phar` in your project directory.
 Run in your project root:
 
 ```
-php composer.phar require geoip/geoip:~1.16
+php composer.phar require nitier/geoip:~1.17
 ```
 
 You should now have the files `composer.json` and `composer.lock` as well as
@@ -112,3 +112,5 @@ version 2.1 or later.
 ## Thanks ##
 
 Thanks to Jim Winstead.
+
+[Original Repository](https://github.com/maxmind/geoip-api-php)
